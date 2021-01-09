@@ -1,0 +1,15 @@
+
+Run    git config --global user.email "you@example.com"   
+git config --global user.name "Your Name"  to set your account's default identity. 
+Omit --global to set the identity only in this repository.  
+fatal: no email was given and auto-detection is disabled > git config --get-all user.name
+
+
+
+<-----------------------------Shown by the VS code while try to get into the git ------------------------------------>
+
+Solutoin is very simple as mentioned in the pop up
+
+that is : 
+$ git config --global user.name "Baisil Geevarghese"
+$ git config --global user.email pgbaisil@gmail.com
